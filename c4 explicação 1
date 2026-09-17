@@ -1,0 +1,5 @@
+ O programa vai ler a quantidade de passos dados a cada hora usando o scanf. 
+  O while vai repetir a leitura enquanto o total de passos for menor que 10.000. 
+  A cada hora, os passos serão somados ao total e a variável horas será aumentada em 1.
+  Quando o total atingir ou ultrapassar 10.000 passos, o while vai parar e o programa vai mostrar quantas horas foram necessárias para atingir a meta.  
+  
