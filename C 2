@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main() {
+    float saldo = 0;
+    float moeda;
+    int opcao;
+
+    while (1) {
+        printf("\nEscolha uma moeda:\n");
+        printf("1 - R$ 0,50\n");
+        printf("2 - R$ 1,00\n");
+        printf("3 - R$ 2,00\n");
+        printf("4 - Parar\n");
+        printf("Digite uma opcao: ");
+        scanf("%d", &opcao);
+
+        if (opcao == 1) {
+            saldo += 0.50;
+        } else if (opcao == 2) {
+            saldo += 1.00;
+        } else if (opcao == 3) {
+            saldo += 2.00;
+        } else if (opcao == 4) {
+            break;
+        } else {
+            printf("Opcao invalida.\n");
+        }
+    }
+
+    printf("\nTotal acumulado: R$ %.2f\n", saldo);
+
+    return 0;
+}
