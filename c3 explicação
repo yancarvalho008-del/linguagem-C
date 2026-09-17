@@ -1,0 +1,4 @@
+O programa lê 10 preços de um produto, depois calcula a média dos preços. 
+  Se a média for maior ou igual a 7, o programa deve mostrar a média e, se for menor que 7, deve mostrar a média e uma mensagem de alerta.
+  caso não seja não vai acontecer nada.
+  
