@@ -1,0 +1,4 @@
+O programa lerá o consumo 5 vezes graças ao `for`.
+O `scanf` vai guardar o valor e, depois, o `if` criará a condição para verificar se será menor ou igual a 20. 
+Se for, mostrará que está dentro da média, e se for maior, mostrará que está acima.
+O programa vai somar os consumos e dividir por 5 para descobrir o valor total da média.
