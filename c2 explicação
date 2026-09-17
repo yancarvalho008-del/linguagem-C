@@ -1,0 +1,4 @@
+O programa vai usar o `while` para permitir que o usuário adicione moedas quantas vezes quiser. 
+  O usuário poderá escolher entre moedas de R$ 0,50, R$ 1,00 e R$ 2,00. O `if` vai verificar qual moeda foi escolhida e adicionar o valor ao `saldo.
+. Quando o usuário escolher a opção de parar, o `break` vai encerrar o programa. 
+  No final, o programa vai mostrar o total acumulado no cofrinho.
